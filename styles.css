@@ -1,0 +1,110 @@
+@import "bootstrap";
+
+.body {
+  background-image: url(spacebackground.jpg);
+  background-attachment: fixed;
+}
+
+.display-4 {
+  padding-bottom: 15px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.subheading {
+  margin-top: -25px;
+}
+
+.jumbotron {
+  background-color: rgba(43, 43, 43, 0.801) !important;
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#user-text {
+  width: 500px;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+#search-btn {
+  margin-top: 10px;
+}
+
+.nav-item {
+  padding: 5px;
+  font-style: color black;
+}
+
+.column {
+  width: 50%;
+  padding: 10px;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  position: relative;
+}
+
+.container {
+  padding: 1em;
+  column-count: 3;
+  font-style: color white;
+}
+
+@media (max-width: 800px) {
+  .container {
+    column-count: 3;
+  }
+  .jumbotron {
+    text-align: center;
+    width: 70%;
+  }
+  .img {
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    column-count: 1;
+  }
+}
+
+#des {
+  text-align: center;
+  font-weight: normal;
+  width: 100%;
+  margin: 0px;
+  visibility: hidden;
+}
+
+#loadmore {
+  margin: center;
+  margin-left: 590px;
+  margin-bottom: 5px;
+}
+
+.title {
+  background-color: rgba(43, 43, 43, 0.9);
+}
+
+.hidden {
+  display: hidden;
+}
