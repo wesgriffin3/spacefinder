@@ -30,6 +30,7 @@
   width: 500px;
   margin: auto;
   padding-bottom: 5px;
+  width: 50%;
 }
 
 #search-btn {
@@ -70,20 +71,20 @@ img {
     text-align: center;
     width: 70%;
   }
-  .img {
-    max-width: 50px;
+  img {
+    width: 150px;
   }
-}
-
-@media (max-width: 600px) {
-  .container {
-    column-count: 2;
+  #loadmore {
+    float: left;
   }
 }
 
 @media (max-width: 400px) {
   .container {
     column-count: 1;
+  }
+  img {
+    width: 50px;
   }
 }
 
